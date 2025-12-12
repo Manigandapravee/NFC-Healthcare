@@ -41,3 +41,45 @@ This project includes:
 
 ## 📂 Project Structure
 
+
+---
+
+## 🔧 Installation
+
+### 1️⃣ Install dependencies
+
+
+### 2️⃣ Install Tesseract OCR  
+- Windows: Install from https://github.com/tesseract-ocr/tesseract  
+- macOS: `brew install tesseract`  
+- Ubuntu: `sudo apt install tesseract-ocr`
+
+---
+
+## ▶️ Running the Application
+
+The app opens a GUI window where you can:
+- Scan NFC card  
+- Enter patient details  
+- Upload prescription image  
+- Generate PDF  
+- Send email  
+
+---
+
+## 🔐 Email Configuration (IMPORTANT)
+Set environment variables locally (do not upload to GitHub):
+
+
+In Python, your code should use:
+
+```python
+import os
+SMTP_EMAIL = os.environ.get("SMTP_EMAIL")
+SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD")
+
+
+
+
+
+
