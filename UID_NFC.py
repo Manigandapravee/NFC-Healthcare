@@ -15,7 +15,7 @@ import fitz  # PyMuPDF for PDF preview
 # CONFIGURATION
 LOGO_PATH = "srm-institute-of-science-and-technology-logo-png_seeklogo-381994.png"
 DB_NAME = "healthcare.db"
-SMTP_EMAIL = "sk9024@srmist.edu.in"
+SMTP_EMAIL = "********@gmail.com"
 SMTP_PASSWORD = "itlt zblu bvae xjlp"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
